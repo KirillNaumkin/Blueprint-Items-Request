@@ -1,0 +1,26 @@
+HOW IT WORKS
+• When you take blueprint (or book with active blueprint) in your cursor, mod buttons appear in the top GUI - now you can quickly request as many items as many times you want to build the blueprint.
+• Input multiplier if needed (1 by default).
+• Click "=" or "+" button.
+• Wait until your robots bring requested items.
+Note: If you input not a number or number below 1 - the value becomes equal to 1. If it's not an integer - it will be rounded down.
+
+KNOWN ISSUES
+• If inventory is opened, request slots will not be visually updated (reopening does visual update), see https://forums.factorio.com/viewtopic.php?f=25&t=31696#p199826
+
+VERSIONS HISTORY
+2016-08-28, 0.1.0:
+• Proof of concept.
+
+2016-08-30, 0.1.1:
+• fixed crash when player gets blueprint book without active blueprint (thanks to NotABiter for his bug report).
+
+2016-09-01, 0.1.2:
+• in addition to setting of count of requested items, the adding of count of requested items also implemented;
+• multipliers for setting and adding of count are customizable now.
+
+2016-09-02, 0.1.3:
+• the simplification of the GUI.
+
+2016-09-09, 0.1.4:
+• fixed: now it's impossible to input non-integer values into textfields.
